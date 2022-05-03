@@ -88,15 +88,8 @@ public class PersonDetails {
 
     @Override
     public String toString() {
-        return "PersonDetails{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", address='" + address + '\'' +
-                ", city='" + city + '\'' +
-                ", state='" + state + '\'' +
-                ", zipCode='" + zipCode + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", email='" + email + '\'' +
-                '}';
+        return "Data [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + ", city=" + city
+                + ", state=" + state + ", zipCode=" + zipCode + ", phoneNumber=" + phoneNumber + ", email=" + email
+                + "]";
     }
 }
