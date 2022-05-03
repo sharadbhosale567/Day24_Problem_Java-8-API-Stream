@@ -1,0 +1,7 @@
+package com.Day24Problems;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("welcome to java Stream Problems");
+    }
+}
