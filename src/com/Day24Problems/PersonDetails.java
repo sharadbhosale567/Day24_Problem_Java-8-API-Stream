@@ -11,7 +11,7 @@ public class PersonDetails {
     private String email;
 
     public PersonDetails(String firstName, String lastName, String address, String city, String state,
-                         String zipCode, String phoneNumber,  String email) {
+                         String zipCode, String phoneNumber, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
@@ -88,8 +88,15 @@ public class PersonDetails {
 
     @Override
     public String toString() {
-        return "Data [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + ", city=" + city
-                + ", state=" + state + ", zipCode=" + zipCode + ", phoneNumber=" + phoneNumber + ", email=" + email
-                + "]";
+        return "PersonDetails{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", zipCode='" + zipCode + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", email='" + email + '\'' +
+                '}';
     }
 }
